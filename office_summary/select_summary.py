@@ -1,13 +1,15 @@
 import json
 import sys
 import os
+import subprocess as sp
 
 def select_summary(start_scene, candidate_path, accepted_path):
     samples = json.load(open(candidate_path, 'r'))
     currdate = str(input('Date (yyyy-mm-dd): '))
     for i in range(start_scene-1, samples['data'][-1]['id']):
+        sp.call('clear', shell=True)
         scene = samples['data'][i]
-        print('\n'+'-'*20+'\nScene {}'.format(scene['id']))
+        print('-'*20+'\nScene {}'.format(scene['id']))
         print(scene['dialogue'])
         # decision has been settled for all five summaries
         reviewed = False
