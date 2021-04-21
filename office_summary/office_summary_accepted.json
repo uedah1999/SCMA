@@ -1125,6 +1125,86 @@
         "Michael is going to give Katy a ride home.",
         "Michael is going to give Katy a ride home."
       ]
+    },
+    {
+      "id": 218,
+      "num_speaker": 1,
+      "dialogue": "Pam: Jim is a great guy. He's like a brother to me. We're like best friends in the office and I really hope he finds someone.",
+      "accepted_summaries": [
+        "Jim is like a brother to Pam. Jim and Pam are best friends in the office. Pam hopes Jim finds someone.",
+        "Jim is like a brother to Pam. Jim and Pam are best friends in the office. Pam hopes Jim finds a partner.",
+        "Jim is like a brother to Pam. Jim and Pam are best friends in the office. Pam hopes Jim will find someone.",
+        "Jim is like a brother to Pam in the office. Pam hopes Jim finds a partner.",
+        "Jim is like a brother to Pam in the office. Pam hopes Jim will find someone."
+      ]
+    },
+    {
+      "id": 219,
+      "num_speaker": 3,
+      "dialogue": "Katy: You seem to like to touch things. Did you try the velvet?\r\nAngela: I don't like to necessarily touch things. I'm just... I'm shopping.\r\nKaty: Oh no, it's fine that you, um. Here, what about the raspberry one? It's really uh, kind of festive. It's got a lot of personality.\r\nAngela: Yeah, uh no.\r\nDwight: Hey, how's it going? Good. Can I talk to you for a second? In private?\r\nKaty: I don't think so I'm really busy.\r\nDwight: It will just take a second.\r\nKaty: I can't.\r\nDwight: Just for a minute.\r\nKaty: I really can't.\r\nDwight: Please? I wanted to talk to you in private because I wanted to ask you out on a date.\r\nKaty: No.\r\nDwight: Ok was that no to talking to me in private, or was that no to the date?\r\nKaty: Both.\r\nKaty: What colors do you like?\r\nAngela: Gray. Dark Gray. Charcoal.",
+      "accepted_summaries": [
+        "Dwight wants to ask Katy out on a date. Katy doesn't want to go out with him.",
+        "Dwight wants to ask Katy out on a date. Katy doesn't want to go with him."
+      ]
+    },
+    {
+      "id": 220,
+      "num_speaker": 2,
+      "dialogue": "Michael: Ryan.\r\nRyan: Yeah.\r\nMichael: Would you like to help me with a special project?\r\nRyan: I would love to.\r\nMichael: Alright.",
+      "accepted_summaries": [
+        "Ryan will help Michael with a special project.",
+        "Ryan will help Michael with a special project.",
+        "Ryan will help Michael with a special project. ",
+        "Ryan will help Michael with a project."
+      ]
+    },
+    {
+      "id": 222,
+      "num_speaker": 2,
+      "dialogue": "Jim: Hi.\r\nKaty: Hi.\r\nJim: I'm Jim, by the way.\r\nKaty: I'm Katy.\r\nJim: Hi Katy, nice to meet you.\r\nKaty: You sit out there, don't you?\r\nJim: I do. That's what I'm best known for. Sitting out there. Alright, let's talk about purses.\r\nKaty: Okay, um...\r\nJim: Katy but you know what, don't try to sell me one. Okay, seriously 'cause I'm just here to learn.\r\nKaty: Okay. \r\nJim: Okay, so I know about most of these, but you know you can...\r\nKaty: Okay.",
+      "accepted_summaries": [
+        "Jim and Katy are going to talk about purses.",
+        "Jim and Katy are going to talk about purses.",
+        "Jim and Katy will talk about purses.",
+        "Jim and Katy will talk about purses.",
+        "Jim and Katy will talk about purses. "
+      ]
+    },
+    {
+      "id": 223,
+      "num_speaker": 2,
+      "dialogue": "Michael: What, stop! Whoa! That's my Drakkar Noir.\r\nRyan: No, this is Rite Aid Night Swept.\r\nMichael: No, it is a perfect smell-alike. I'm not paying for the label. Right here. Give it.\r\nRyan: Well, it's empty.\r\nMichael: Not it's not, there's some in the straw.  There, now you may throw it out.\r\nRyan: Wow. How many filet-o-fishes did you eat?\r\nMichael: That's over several months, Ryan.\r\nRyan:  Still.",
+      "accepted_summaries": [
+        "Michael's Drakkar Noir is a perfect smell-alike of Rite Aid Night Swept. Ryan will throw it out."
+      ]
+    },
+    {
+      "id": 225,
+      "num_speaker": 1,
+      "dialogue": "Michael: I think in order to be a ladies man, it's imperative that people don't know you're a ladies man, so I kind of play that close to the chest. I don't know, what can I say? Women are attracted to power. And I think other people have told me that I have a very symmetrical face.  I don't know. I don't know. Maybe they're right? I don't know.",
+      "accepted_summaries": [
+        "Michael is a ladies man. He doesn't know what to do about it. Some people have told him that he has a very symmetrical face. ",
+        "Michael is a ladies man. He doesn't know what to do about it. Some people have told him that he has a very symmetrical face.",
+        "Michael is a ladies man. He doesn't know what to do about it. "
+      ]
+    },
+    {
+      "id": 226,
+      "num_speaker": 3,
+      "dialogue": "Michael: Sure you don't want me to help you with that? Cause I can grab that no problem.\r\nKaty: Goodnight, it was nice nice to meet some of you.\r\nMichael: See you later. Goodnight. Goodnight, Jim.\r\nJim: Goodnight, Michael.\r\nMichael: Where you going?\r\nJim: I don't know. Grab a drink, I think?\r\nMichael: With us?\r\nKaty: I uh, I probably should have told you, I don't need a ride now 'cause Jim can take me home after so you're off the hook.\r\nMichael: Okay. Great. Off the hook. Excellent. Okay, cool.\r\nJim: I got this. \r\nMichael: Alright, have fun.\r\nKaty: Thanks.\r\nJim: I got it.\r\nMichael: Don't drink and drive.\r\nMichael: Take it easy.\r\nJim: Have a good night.\r\nMichael: You too, have a good night.\r\nKaty: You got that?\r\nJim: Oh, yeah. You sold a lot, so it's lighter.\r\nKaty: Good. Here. Squeeze it inside.\r\nJim: Alright now, I'm gonna warn you. Don't freak out, okay?\r\nKaty: Why?\r\nJim: This is a really nice car. In case you haven't noticed, this is a Corolla. Okay.\r\nKaty: It's a... it's a very nice car.\r\nJim: You're not going to freak out?",
+      "accepted_summaries": [
+        "Jim will drive Katy home.",
+        "Jim will drive Katy home."
+      ]
+    },
+    {
+      "id": 227,
+      "num_speaker": 1,
+      "dialogue": "Michael: Do I have a special someone? Uh well, yeah of course. A bunch of 'em. My employees. If I had to choose between a one-night-stand with some stupid cow I pick-up in a bar, and these people? I'd pick them every time. Because with them, it is an everyday stand and I still know their names in the morning.",
+      "accepted_summaries": [
+        "Michael has a lot of employees. If he had to choose between a one-night-stand with a cow he picks-up in a bar and his employees, he would pick them",
+        "Michael has a lot of employees. If he had to choose between a one-night-stand with a cow he picks-up in a bar or his employees, he would pick them"
+      ]
     }
   ]
 }
