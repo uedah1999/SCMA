@@ -2,14 +2,26 @@ import json
 import sys
 import os
 import subprocess as sp
+import pandas as pd
 
-def select_summary(start_scene, candidate_path, accepted_path):
+def select_summary(start_scene, candidate_path, accepted_path, episode_info):
     samples = json.load(open(candidate_path, 'r'))
     currdate = str(input('Date (yyyy-mm-dd): '))
+
+    df_epi = pd.read_csv('office_episodes.csv')
+    for idx, row in df_epi.iterrows():
+        if (row['min_scene'] <= start_scene) and (row['max_scene'] >= start_scene):
+            epi_idx = idx
+            curr_epi = row
+            break
+    
     for i in range(start_scene-1, samples['data'][-1]['id']):
         sp.call('clear', shell=True)
         scene = samples['data'][i]
-        print('-'*20+'\nScene {}'.format(scene['id']))
+        if scene['id'] > curr_epi['max_scene']:
+            epi_idx += 1
+            curr_epi = df_epi.iloc[epi_idx, :]
+        print('{}: Scene {} (same episode until {})'.format(curr_epi['episode_info'], scene['id'], curr_epi['max_scene']))
         print(scene['dialogue'])
         # decision has been settled for all five summaries
         reviewed = False
@@ -60,7 +72,8 @@ def select_summary(start_scene, candidate_path, accepted_path):
 
 def main(
     candidate_path='office_summary_candidates.json', 
-    accepted_path='office_summary_accepted.json'):
+    accepted_path='office_summary_accepted.json',
+    episode_info='office_episodes.csv'):
     if os.path.exists(accepted_path):
         with open(accepted_path) as outfile:
             accepted = json.load(outfile)
@@ -70,6 +83,6 @@ def main(
     else:
         start_scene = int(input('Which scene number to start? (≥1): '))
     print('starting at scene {}'.format(start_scene))
-    select_summary(start_scene, candidate_path, accepted_path)
+    select_summary(start_scene, candidate_path, accepted_path, episode_info)
 
 main()
